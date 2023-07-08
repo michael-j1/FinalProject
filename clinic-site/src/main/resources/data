@@ -1,0 +1,2 @@
+INSERT INTO patient (patient) VALUES ('patientName');
+INSERT INTO patient (patient) VALUES ('patientAnatomyScanned');

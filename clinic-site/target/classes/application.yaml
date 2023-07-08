@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: clinic_site
+    password: clinic_site
+    url: jdbc:mysql://localhost:3306/clinic_site
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: always 
